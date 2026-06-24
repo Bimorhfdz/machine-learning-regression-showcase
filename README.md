@@ -1,24 +1,30 @@
-# 🏎️ F1 Podium Prediction & Business Insights
+---
 
-Repositori ini berisi analisis data performa balapan Formula 1 dan pemodelan prediktif untuk menghasilkan *insight* bisnis. Projek ini dibagi menjadi dua pendekatan *machine learning*: Klasifikasi untuk memprediksi probabilitas pembalap meraih podium, dan Regresi untuk menganalisis faktor-faktor yang memengaruhi pendapatan dan metrik bisnis dalam balapan F1.
+### 2. README.md untuk `machine-learning-regression-showcase`
+Repositori ini berfungsi sebagai portofolio dasar yang menunjukkan penguasaanmu terhadap fondasi *machine learning* (khususnya Regresi Linier dan Regresi Berganda).
+
+```markdown
+# 🤖 Machine Learning Regression Showcase
+
+Repositori ini merupakan kumpulan mini-projek yang berfokus pada implementasi model regresi dasar. Projek-projek di dalamnya mendemonstrasikan kemampuan *data preprocessing*, *Exploratory Data Analysis* (EDA), dan evaluasi model regresi menggunakan *dataset* tabular yang umum ditemui di industri.
 
 ---
 
-## 📂 Struktur Projek
+## 📂 Daftar Projek Terlampir
 
-Projek ini terdiri dari dua file *notebook* utama:
-1. **`1_classification_podium.ipynb`**: Berfokus pada pemodelan klasifikasi untuk memprediksi apakah seorang pembalap akan finis di posisi podium (Top 3) berdasarkan data historis, cuaca, dan kualifikasi.
-2. **`2_regression_business.ipynb`**: Berfokus pada model regresi untuk menganalisis dan memprediksi dampak performa balapan terhadap potensi nilai bisnis dan operasional tim.
-
----
-
-## 🛠️ Tech Stack & Library
-* **Language:** Python
-* **Libraries:** `pandas`, `numpy`, `matplotlib`, `seaborn`, `scikit-learn`
+1. **📁 Automobile Price Prediction (`automobile1.0.csv`)**
+   * **Deskripsi:** Memprediksi harga jual mobil berdasarkan karakteristik teknis dan fitur kendaraan (seperti tenaga mesin, dimensi, dll).
+2. **📁 Student Performance Regression (`Student_Performance.csv`)**
+   * **Deskripsi:** Menganalisis dan memprediksi nilai akademik siswa menggunakan *Multiple Linear Regression* berdasarkan faktor-faktor seperti jam belajar dan riwayat nilai.
 
 ---
 
-## 🚀 Cara Menjalankan Projek
-1. Clone repositori ini:
-```bash
-   git clone [https://github.com/username-kamu/f1-podium-prediction-business-insights.git](https://github.com/username-kamu/f1-podium-prediction-business-insights.git)
+## 🛠️ Tech Stack
+* Python (Pandas, Numpy)
+* Scikit-Learn (Linear Regression, Train-Test Split, Metrics)
+* Matplotlib & Seaborn (Visualisasi)
+
+---
+
+## 💡 Tujuan Projek
+Projek ini dibuat untuk menunjukkan pemahaman fundamental mengenai evaluasi model regresi (MSE, RMSE, R-Squared) dan bagaimana menerjemahkan koefisien regresi menjadi *insight* yang bisa dipahami.
